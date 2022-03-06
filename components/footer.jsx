@@ -14,23 +14,23 @@ export default function Footer() {
                 </div>
                 <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Articles</p>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">All Articles</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Newest Articles</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Highest Articles</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Lowest Articles</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">All Articles</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Newest Articles</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Highest Articles</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Lowest Articles</a>
                 </nav>
                 <nav className="col-span-2 md:col-span-1 lg:col-span-2">
                     <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Reviews</p>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">All Reviews</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Newest Reviews</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Highest Rated</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Lowest Rated</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">All Reviews</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Newest Reviews</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Highest Rated</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Lowest Rated</a>
                 </nav>
                 <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                     <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Contact</p>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Twitter</a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Instagram </a>
-                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-purple-800" href="#">Facebook</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Twitter</a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Instagram </a>
+                    <a className="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-800" href="#">Facebook</a>
                 </nav>
             </div>
             <div className="flex flex-col items-start justify-between pt-10 mt-10 border-t border-gray-100 md:flex-row md:items-center">

@@ -53,13 +53,13 @@ export default function Article() {
                         <div key={index}>
                             <img onClick={() => router.push('/articles/19')} src="https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/field/image/ap20296067506098.jpg?itok=hZu82HBq" className="cursor-pointer object-cover w-full h-56 mb-5 bg-center rounded" alt="Kutty" loading="lazy" />
                             <h2 className="mb-2 text-lg font-semibold text-gray-900">
-                                <a onClick={() => router.push('/articles/19')} className="cursor-pointer text-gray-900 hover:text-purple-700">{value.title}</a>
+                                <a onClick={() => router.push('/articles/19')} className="cursor-pointer text-gray-900 hover:text-blue-700">{value.title}</a>
                             </h2>
                             <p className="mb-3 text-sm font-normal text-gray-500">
                                 {value.body}
                             </p>
                             <p className="mb-3 text-sm font-normal text-gray-500">
-                                <a href="#" className="font-medium text-gray-900 hover:text-purple-700">{value.author} </a>
+                                <a href="#" className="font-medium text-gray-900 hover:text-blue-700">{value.author} </a>
                                 • {value.date}
                             </p>
                         </div>
@@ -78,27 +78,27 @@ export default function Article() {
                     </div>
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline text-purple-500  ">
+                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline text-blue-500  ">
                     1
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-purple-500  ">
+                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
                     2
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-purple-500 ">
+                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
                     3
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-purple-500  ">
+                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
                     4
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-purple-500 ">
+                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
                     5
                 </a>
 
-                <a href="#" class="px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white hover:text-purple-500 ">
+                <a href="#" class="px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white hover:text-blue-500 ">
                     <div class="flex items-center -mx-1">
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

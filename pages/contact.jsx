@@ -9,14 +9,12 @@ export default function Contact() {
     return (
         <>
             <div className="w-full flex justify-center">
-
-
                 <section class="w-full max-w-7xl px-4">
                     <div class="container items-center py-6 md:py-8">
                         <div class="flex flex-col w-full my-6 transition ease-in-out transform bg-white rounded-lg md:mt-0">
                             <div class="mt-0 md:mt-8">
                                 <div class="mt-0 md:mt-8">
-                                    <h1 class="mb-8 font-bold text-3xl">Get in touch</h1>
+                                    <h1 class="mb-8 text-3xl font-extrabold leading-tight text-gray-900">Get in touch</h1>
                                     <form action="#" method="POST" class="space-y-6">
                                         <div class="grid grid-cols-1 gap-2 lg:grid-cols-2">
                                             <div>
@@ -79,7 +77,7 @@ export default function Contact() {
             </div>
 
             <section class="px-4 pt-0 pb-10 md:pb-36 mx-auto max-w-7xl px-4">
-                <h1 class="mb-8 font-bold text-3xl">Frequently Asked Questions</h1>
+                <h1 class="mb-8 text-3xl font-extrabold leading-tight text-gray-900">Frequently Asked Questions</h1>
                 <div class="text-sm">
                     <div x-data="collapse()" class="px-4 mb-3 bg-gray-100 rounded">
                         <button onClick={() => setCollapse1(!collapse1)}
