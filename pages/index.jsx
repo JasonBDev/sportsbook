@@ -32,59 +32,59 @@ export default function Home() {
     <>
       <motion.div
         initial={{ y: '10vh', opacity: 0 }} animate={{ y: '0', opacity: 1 }} exit={{ y: '10vh', opacity: 0 }}
-        class="px-4 pt-24 mx-auto max-w-7xl">
-        <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-          <h1 class="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
+        className="px-4 pt-24 mx-auto max-w-7xl">
+        <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
+          <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
             Lorem Ipsum is simply dummy text standard.
           </h1>
-          <p class="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24">
+          <p className="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24">
             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
           </p>
-          <form action="" method="post" id="revue-form" name="revue-form" target="_blank" class="p-2 mt-8 transition duration-500 ease-in-out transform border2 bg-gray-100 md:mx-auto rounded-xl sm:max-w-lg sm:flex">
-            <div class="flex-1 min-w-0 revue-form-group">
-              <label for="member_email" class="sr-only">Email address</label>
+          <form action="" method="post" className="p-2 mt-8 transition duration-500 ease-in-out transform border2 bg-gray-100 md:mx-auto rounded-xl sm:max-w-lg sm:flex">
+            <div className="flex-1 min-w-0">
+              <label htmlFor="member_email" className="sr-only">Email address</label>
               <input
                 id="cta-email"
                 type="email"
-                class="block w-full px-5 py-3 text-base placeholder-gray-400 transition duration-500 ease-in-out transform bg-transparent border border-transparent rounded-md text-neutral-600 focus:outline-none focus:border-transparent"
+                className="block w-full px-5 py-3 text-base placeholder-gray-400 transition duration-500 ease-in-out transform bg-transparent border border-transparent rounded-md text-neutral-600 focus:outline-none focus:border-transparent"
                 placeholder="Enter your email  "
               />
             </div>
-            <div class="hidden sm:flex mt-4 sm:mt-0 sm:ml-3 revue-form-actions">
+            <div className="hidden sm:flex mt-4 sm:mt-0 sm:ml-3">
               <button
                 type="submit"
                 value="Subscribe"
                 name="member[subscribe]"
                 id="member_submit"
-                class="block w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
+                className="block w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
               >
                 Subscribe
               </button>
             </div>
           </form>
-          <div class="block sm:hidden mt-2 sm:mt-0 sm:ml-3 revue-form-actions">
+          <div className="block sm:hidden mt-2 sm:mt-0 sm:ml-3 ">
             <button
               type="submit"
               value="Subscribe"
               name="member[subscribe]"
               id="member_submit"
-              class="block w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
+              className="block w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
             >
               Subscribe
             </button>
           </div>
-          <div class="sm:max-w-lg sm:flex md:mx-auto">
-            <p class="mt-3 text-xs text-gray-500">
-              By subscribing, you agree with Sportbooks’s <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+          <div className="sm:max-w-lg sm:flex md:mx-auto">
+            <p className="mt-3 text-xs text-gray-500">
+              {"By subscribing, you agree with Sportbooks's Terms of Service and Privacy Policy."}
             </p>
           </div>
         </div>
       </motion.div>
 
       <section>
-        <div class="py-12 mx-auto">
-          <div class="max-w-7xl pt-12 mx-auto px-4">
-            <div class="space-y-8">
+        <div className="py-12 mx-auto">
+          <div className="max-w-7xl pt-12 mx-auto px-4">
+            <div className="space-y-8">
 
               <BetSiteReview rating={'4.9'} ranking={'1'} />
               <BetSiteReview rating={'4.7'} ranking={'2'} />
@@ -123,41 +123,41 @@ export default function Home() {
 
       <Featured />
 
-      <section class="px-4 py-24 pt-8 mx-auto max-w-7xl">
-        <h2 class="mb-4 text-xl font-bold md:text-3xl">Frequently Asked Questions</h2>
-        <div class="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
+      <section className="px-4 py-24 pt-8 mx-auto max-w-7xl">
+        <h2 className="mb-4 text-xl font-bold md:text-3xl">Frequently Asked Questions</h2>
+        <div className="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
           <div>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             </p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">Is there a discount for Startups and Colleges?</h5>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <p>{"Lorem Ipsum is simply dummy text of the printing and typesetting industry."}</p>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">Is there a discount for Startups and Colleges?</h5>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              <a href="https://help.hellonext.co/faq/startup-eligibility/" target="_blank">here</a>.
+              {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
+              <a href="https://help.hellonext.co/faq/startup-eligibility/">here</a>.
             </p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
             <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              {"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             </p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">Is Hellonext free for open-source?</h5>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">Is Hellonext free for open-source?</h5>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           <div>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
             <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              {"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
             </p>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I self-host Hellonext?</h5>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
-            <h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <p>{"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"}</p>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">Can I self-host Hellonext?</h5>
+            <p>{"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"}</p>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
+            <p>{"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"}</p>
+            <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Lorem Ipsum?</h5>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+              {"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,"}
             </p>
           </div>
         </div>

@@ -13,8 +13,8 @@ export default function Reviews() {
             <p className="mb-20 text-lg text-gray-500">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
             <section>
-                <div class="max-w-7xl mx-auto">
-                    <div class="space-y-8">
+                <div className="max-w-7xl mx-auto">
+                    <div className="space-y-8">
 
                         <BetSiteReview rating={'4.9'} ranking={'1'} />
                         <BetSiteReview rating={'4.7'} ranking={'2'} />
@@ -27,41 +27,41 @@ export default function Reviews() {
             </section>
 
 
-            <div class="flex justify-center w-full mt-10">
-                <a href="#" class="px-4 py-2 mx-1 text-gray-500 capitalize bg-white">
-                    <div class="flex items-center -mx-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+            <div className="flex justify-center w-full mt-10">
+                <a href="#" className="px-4 py-2 mx-1 text-gray-500 capitalize bg-white">
+                    <div className="flex items-center -mx-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
                         </svg>
 
                     </div>
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline text-blue-500  ">
+                <a href="#" className="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline text-blue-500  ">
                     1
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
+                <a href="#" className="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
                     2
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
+                <a href="#" className="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
                     3
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
+                <a href="#" className="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500  ">
                     4
                 </a>
 
-                <a href="#" class="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
+                <a href="#" className="hidden px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white sm:inline hover:text-blue-500 ">
                     5
                 </a>
 
-                <a href="#" class="px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white hover:text-blue-500 ">
-                    <div class="flex items-center -mx-1">
+                <a href="#" className="px-4 py-2 mx-1 text-gray-700 transition-colors duration-200 transform bg-white hover:text-blue-500 ">
+                    <div className="flex items-center -mx-1">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                     </div>
                 </a>

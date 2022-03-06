@@ -3,10 +3,10 @@ export default function Article(props) {
     const { id } = props;
 
     return (
-        <div className="px-4 py-12 md:py-24 mx-auto max-w-7xl" itemid="#">
+        <div className="px-4 py-12 md:py-24 mx-auto max-w-7xl" itemID="#">
             <div className="w-full mx-auto mb-10 text-left md:w-3/4 lg:w-1/2">
                 <div className="pb-6 mb-6 border-b border-gray-200">
-                    <h1 className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl" itemprop="headline" title="Rise of Tailwind - A Utility First CSS Framework">
+                    <h1 className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl" itemProp="headline" title="Rise of Tailwind - A Utility First CSS Framework">
                         Rise of Sportsbetting - How to get started
                     </h1>
                     <p className="text-base text-gray-500">March 3, 2022 — Written by Jason Greb</p>
@@ -41,11 +41,11 @@ export default function Article(props) {
 
             <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
                 <p className="text-gray-700 px-6 leading-loose mb-8">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
                 </p>
                 <p className="text-gray-700 px-6 leading-loose mb-8">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 <p className="text-gray-700 px-6 leading-loose mb-8">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
                 </p>
                 <p className="text-gray-700 px-6">...</p>
             </div>

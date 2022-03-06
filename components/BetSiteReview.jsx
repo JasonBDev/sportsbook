@@ -8,7 +8,7 @@ export default function BetSiteReview(props) {
 
     return (
         <>
-            <div onClick={() => router.push('https://www.bovada.lv/')} className="cursor-pointer hover:bg-gray-100 hidden lg:flex flex-row justify-between items-center border border-gray-200 p-8 rounded-md">
+            <div onClick={() => router.push('/reviews/19')} className="cursor-pointer hidden lg:flex flex-row justify-between items-center border border-gray-100 p-8 rounded-md">
                 <div className="flex-col justify-between items-center h-32">
                     <div className='flex items-center justify-between w-full'>
                         <div className="flex flex-row items-center">
@@ -26,7 +26,7 @@ export default function BetSiteReview(props) {
 
                 <div className="flex flex-col justify-center h-32">
                     <h1 className='text-xl text-gray-600 font-medium text-center mt-2'>Bonus: <span className='font-normal'>100% up to $1000</span> </h1>
-                    <p class="flex py-4 px-20 text-xl text-gray-600 text-left">
+                    <p className="flex py-4 px-20 text-xl text-gray-600 text-left">
                         Good Customer Support
                     </p>
                 </div>
@@ -73,7 +73,7 @@ export default function BetSiteReview(props) {
 
                 <div className="flex flex-col w-full">
                     <h1 className='text-xl text-gray-600 font-medium text-left mt-2'>Bonus: <span className='font-normal'>100% up to $1000</span> </h1>
-                    <p class="flex py-4 text-xl text-gray-600 text-left">{rating}
+                    <p className="flex py-4 text-xl text-gray-600 text-left">{rating}
                         Good Customer Support
                     </p>
                 </div>

@@ -1,18 +1,23 @@
+import ReviewHeader from "../../components/ReviewHeader";
+
 export default function Review(props) {
 
     const { id } = props;
 
     return (
-        <div className="px-4 py-12 md:py-24 mx-auto max-w-7xl" itemid="#">
-            <div className="w-full mx-auto mb-10 text-left md:w-3/4 lg:w-1/2">
+        <div className="px-4 py-12 md:py-24 mx-auto max-w-7xl" itemID="#">
+            <div className="w-full mx-auto mb-8 text-left md:w-3/4 lg:w-1/2">
+
+                <ReviewHeader />
+
                 <div className="pb-6 mb-6 border-b border-gray-200">
-                    <h1 className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl" itemprop="headline" title="Rise of Tailwind - A Utility First CSS Framework">
-                        Rise of Sportsbetting - How to get started
+                    <h1 className="mb-3 text-3xl font-bold text-gray-900 md:leading-tight md:text-4xl" itemProp="headline" title="Rise of Tailwind - A Utility First CSS Framework">
+                        Bovada Review
                     </h1>
                     <p className="text-base text-gray-500">March 3, 2022 — Written by Jason Greb</p>
                 </div>
                 <div className="flex items-center mb-6 space-x-2">
-                    <p className="text-gray-600">Share this article</p>
+                    <p className="text-gray-600">Share this review</p>
                     <a href="#" className="text-gray-600 hover:text-gray-900">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="flex-none w-5 h-5" fill="currentColor">
                             <path
@@ -36,16 +41,14 @@ export default function Review(props) {
                         </svg>
                     </a>
                 </div>
-                <img src="https://wpr-public.s3.amazonaws.com/wprorg/styles/facebook/s3/field/image/ap20296067506098.jpg?itok=hZu82HBq" className="object-cover w-full h-64 bg-center rounded" alt="Kutty" />
             </div>
-
             <div className="w-full mx-auto prose md:w-3/4 lg:w-1/2">
                 <p className="text-gray-700 px-6 leading-loose mb-8">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."}
                 </p>
                 <p className="text-gray-700 px-6 leading-loose mb-8">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                 <p className="text-gray-700 px-6 leading-loose mb-8">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
                 </p>
                 <p className="text-gray-700 px-6">...</p>
             </div>
